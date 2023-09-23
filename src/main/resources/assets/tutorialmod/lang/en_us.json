@@ -14,5 +14,7 @@
   "block.tutorialmod.sapphire_ore": "Sapphire Ore",
   "block.tutorialmod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
   "block.tutorialmod.nether_sapphire_ore": "Nether Sapphire Ore",
-  "block.tutorialmod.end_stone_sapphire_ore": "Endstone Sapphire Ore"
+  "block.tutorialmod.end_stone_sapphire_ore": "Endstone Sapphire Ore",
+
+  "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuables underground"
 }
