@@ -1,5 +1,6 @@
 package com.example.examplemod.datagen;
 
+import com.example.examplemod.TutorialMod;
 import com.example.examplemod.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
@@ -9,8 +10,8 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModBlockStateProvider extends BlockStateProvider {
 
-    public ModBlockStateProvider(PackOutput output, String modid, ExistingFileHelper exFileHelper) {
-        super(output, modid, exFileHelper);
+    public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
+        super(output, TutorialMod.MODID, exFileHelper);
     }
 
     @Override
