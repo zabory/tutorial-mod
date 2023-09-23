@@ -26,6 +26,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 ModBlocks.NETHER_SAPPHIRE_ORE.get(),
                 ModBlocks.END_STONE_SAPPHIRE_ORE.get()
         );
+
         tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES).addTags(Tags.Blocks.ORES);
 
         tag(BlockTags.NEEDS_IRON_TOOL).add(
@@ -47,5 +48,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         );
 
         tag(BlockTags.MINEABLE_WITH_AXE).add(ModBlocks.SOUND_BLOCK.get());
+
+        tag(BlockTags.FENCES)
+                .add(ModBlocks.SAPPHIRE_FENCE.get());
+        tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.SAPPHIRE_FENCE_GATE.get());
+        tag(BlockTags.WALLS)
+                .add(ModBlocks.SAPPHIRE_WALL.get());
     }
 }
