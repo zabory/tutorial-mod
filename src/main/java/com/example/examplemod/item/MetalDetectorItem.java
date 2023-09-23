@@ -1,5 +1,6 @@
 package com.example.examplemod.item;
 
+import com.example.examplemod.util.ModTags;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -63,9 +64,6 @@ public class MetalDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-        LinkedList<Block> valid = new LinkedList<>(
-                Arrays.asList(Blocks.IRON_ORE, Blocks.DIAMOND_ORE)
-        );
-        return valid.contains(state.getBlock());
+        return state.is(ModTags.Blocks.METAL_DETECTOR_VALUABLES);
     }
 }
