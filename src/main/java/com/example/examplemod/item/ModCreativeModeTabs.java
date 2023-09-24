@@ -31,6 +31,11 @@ public abstract class ModCreativeModeTabs {
 
                         pOutput.accept(ModItems.SAPPHIRE_STAFF.get());
 
+                        pOutput.accept(ModItems.SAPPHIRE_HELMET.get());
+                        pOutput.accept(ModItems.SAPPHIRE_CHESTPLATE.get());
+                        pOutput.accept(ModItems.SAPPHIRE_LEGGINGS.get());
+                        pOutput.accept(ModItems.SAPPHIRE_BOOTS.get());
+
                         pOutput.accept(ModItems.STRAWBERRY.get());
                         pOutput.accept(ModItems.PINE_CONE.get());
 
