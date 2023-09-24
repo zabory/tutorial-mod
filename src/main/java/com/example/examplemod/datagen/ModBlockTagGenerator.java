@@ -49,6 +49,10 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         tag(BlockTags.MINEABLE_WITH_AXE).add(ModBlocks.SOUND_BLOCK.get());
 
+        tag(ModTags.Blocks.NEEDS_SAPPHIRE_TOOL).add(
+                ModBlocks.SOUND_BLOCK.get()
+        );
+
         tag(BlockTags.FENCES)
                 .add(ModBlocks.SAPPHIRE_FENCE.get());
         tag(BlockTags.FENCE_GATES)
